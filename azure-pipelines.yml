@@ -23,6 +23,6 @@ steps:
       resourceGroupName: 'test'
       location: 'UK South'
       templateLocation: 'Linked artifact'
-      csmFile: '$(System.DefaultWorkingDirectory)/_swapnilmore2901_AzureUpdateManager/template.json'
-      csmParametersFile: '$(System.DefaultWorkingDirectory)/_swapnilmore2901_AzureUpdateManager/parameters.json'
+      csmFile: '$(System.DefaultWorkingDirectory)/_YashiAg26_Azure-Update-Manager/template.json'
+      csmParametersFile: '$(System.DefaultWorkingDirectory)/_YashiAg26_Azure-Update-Manager/parameters.json'
       deploymentMode: 'Incremental'
