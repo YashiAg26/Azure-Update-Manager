@@ -16,13 +16,13 @@ steps:
 
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
-      deploymentScope: 'Resource Group'
-      azureResourceManagerConnection: 'anugrah pay as you go(cbf8b966-9488-4fc7-a133-b65c3b0285a8)'
-      subscriptionId: 'cbf8b966-9488-4fc7-a133-b65c3b0285a8'
-      action: 'Create Or Update Resource Group'
-      resourceGroupName: 'test'
-      location: 'UK South'
-      templateLocation: 'Linked artifact'
-      csmFile: '$(System.DefaultWorkingDirectory)/_YashiAg26_Azure-Update-Manager/template.json'
-      csmParametersFile: '$(System.DefaultWorkingDirectory)/_YashiAg26_Azure-Update-Manager/parameters.json'
-      deploymentMode: 'Incremental'
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'anugrah pay as you go(1)(cbf8b966-9488-4fc7-a133-b65c3b0285a8)'
+    subscriptionId: 'cbf8b966-9488-4fc7-a133-b65c3b0285a8'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'test'
+    location: 'UK South'
+    templateLocation: 'Linked artifact'
+    csmFile: '$(System.DefaultWorkingDirectory)/_YashiAg26_Azure-Update-Manager/template.json'
+    csmParametersFile: '$(System.DefaultWorkingDirectory)/_YashiAg26_Azure-Update-Manager/parameters.json'
+    deploymentMode: 'Incremental'
